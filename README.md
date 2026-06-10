@@ -6,7 +6,7 @@ Este repositorio contiene los códigos desarrollados para la tesis:
 
 ## Organización del repositorio
 
-- `Capítulo 3/`: códigos relacionados con la comunicación entre dos PC mediante módulos MRAPC.
+- `Capítulo 3/`: códigos relacionados con la comunicación entre dos PC mediante los MRAPC.
 - `Capítulo 4/`: códigos relacionados con la visualización y filtrado de mediciones RSSI.
 - `Capítulo 5/`: códigos correspondientes a la estación terrena y la estación móvil para la adquisición experimental.
 
