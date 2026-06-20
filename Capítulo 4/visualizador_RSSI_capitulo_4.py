@@ -23,7 +23,7 @@ REMOTE_RADIO_MAC = 0x3022 #Radio al que se hace la consulta del RSSI
 RSSI_IM = 0x73
 REGISTER_EVERY_S = 2.0
 RSSI_QUERY_EVERY_S = 0.1
-RSSI_ALPHA = 0.25 #Valor de alpha para el filtro (entre 0 y 1)
+RSSI_ALPHA = 0.1 #Valor de alpha para el filtro (entre 0 y 1)
 
 DEFAULT_SAVE_FMT = "SVG"
 PLOT_REFRESH_MS = 100 #Tiempo de muestreo cada 100ms
