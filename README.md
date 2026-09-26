@@ -39,43 +39,6 @@ Dependiendo del capítulo, el repositorio contiene:
 - **`.png` y `.svg`**: figuras, patrones de radiación y gráficas utilizadas para documentar los resultados.
 - **`.pdf`**: manuales y documentación técnica de los dispositivos utilizados.
 
-## Capítulo 8: prueba final de seguimiento hacia la fuente de RF
-
-La prueba final integra la estimación del AoA con la navegación autónoma del cuadricóptero. La misión comienza con un barrido angular discreto completo y posteriormente realiza desplazamientos de **10 m** intercalados con semibarridos discretos para actualizar la dirección de avance.
-
-Las direcciones estimadas durante la misión fueron:
-
-| Etapa | AoA estimado |
-|---|---:|
-| Barrido completo | 315° |
-| Primer semibarrido | 300° |
-| Segundo semibarrido | 305° |
-
-Los principales datos experimentales de esta prueba se encuentran en:
-
-```text
-Capítulo 8/
-├── datos_experimentales/
-│   ├── barrido_completo.csv
-│   ├── semi_barrido1.csv
-│   ├── semi_barrido2.csv
-│   └── mision_general.csv
-├── figuras/
-│   ├── mapa_distancia_dron_fuente.pdf
-│   ├── barrido_completo.png
-│   ├── semi_barrido1.png
-│   ├── semi_barrido2.png
-│   ├── RSSI_mision_seguimiento.pdf
-│   ├── mapa_seguimiento_dron_fuente.pdf
-│   └── mapa_ubicacion_estimada_de_la_fuente.pdf
-└── log_px4/
-    └── log_25_2026-8-20-10-40-34.ulg
-```
-
-El archivo `log_25_2026-8-20-10-40-34.ulg` corresponde a la misión final documentada en la tesis. En este registro se observa la secuencia de orientación utilizada durante el seguimiento: barrido completo, avance hacia **315°**, primer semibarrido, avance hacia **300°**, segundo semibarrido y avance final hacia **305°**.
-
-La misión terminó al cumplirse el criterio de proximidad basado en RSSI y produjo una estimación de la ubicación de la fuente con una separación horizontal aproximada de **2.92 m** respecto a la posición de referencia utilizada durante la prueba.
-
 ## Software y herramientas principales
 
 El desarrollo experimental emplea principalmente:
