@@ -36,7 +36,7 @@ Dependiendo del capítulo, el repositorio contiene:
 - **`.py`**: programas desarrollados en Python para comunicación, adquisición de RSSI, procesamiento de datos, interfaces gráficas y control del cuadricóptero.
 - **`.csv`**: datos experimentales obtenidos durante los barridos angulares y las misiones de vuelo.
 - **`.ulg`**: registros de vuelo generados por PX4.
-- **`.png` y `.pdf`**: figuras, patrones de radiación, mapas y gráficas utilizadas para documentar los resultados.
+- **`.png` y `.svg`**: figuras, patrones de radiación y gráficas utilizadas para documentar los resultados.
 - **`.pdf`**: manuales y documentación técnica de los dispositivos utilizados.
 
 ## Capítulo 8: prueba final de seguimiento hacia la fuente de RF
