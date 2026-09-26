@@ -19,7 +19,7 @@ A partir del Capítulo 5, además de los códigos desarrollados, se incluyen los
 
 ## Estructura del repositorio
 
-| Carpeta | Contenido principal |
+| Capítulo | Contenido principal |
 |---|---|
 | `Capítulo 3` | Programas desarrollados para establecer la comunicación entre dos computadoras mediante módulos MRAPC, incluyendo registro en la red, construcción y procesamiento de tramas, cálculo de CRC y transmisión de mensajes entre una PC y una Raspberry Pi 5. |
 | `Capítulo 4` | Programas para la solicitud y adquisición periódica de mediciones RSSI, conversión de las lecturas a dBm y aplicación del filtro digital IIR de primer orden utilizado para suavizar la señal. |
